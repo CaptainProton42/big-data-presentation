@@ -178,27 +178,27 @@ Gruppierung und Summation nach <a class="accent">Jahr</a>, <a class="accent">Sta
 
 ## Ergebnisse
 
-,,,
+--
 
 ### Karten der Rohdaten
 * Konvertierung der Rohdaten zu GeoJSON und plotten im Browser mit Plotly und mapbox (lokal)
 
-,,,
+--
 
 ### Berlin
 <div id="map-berlin" class="plot r-stretch"></div>
 
-,,,
+--
 
 ### Hamburg
 <div id="map-hamburg" class="plot r-stretch"></div>
 
-,,,
+--
 
 ### München
 <div id="map-muenchen" class="plot r-stretch"></div>
 
-,,,
+--
 
 ### Jena
 <div id="map-jena" class="plot r-stretch"></div>
@@ -208,21 +208,21 @@ Gruppierung und Summation nach <a class="accent">Jahr</a>, <a class="accent">Sta
 ## Vergleich der Flächennutzung
 <div id="plot-total" class="plot r-stretch"></div>
 
-,,,
+--
 
 ## Relative Flächennutzung
 <div id="plot-relative" class="plot r-stretch"></div>
 
-,,,
+--
 
 ## Entwicklung der Flächen auf OSM
 <div id="plot-development-Buildings" class="plot r-stretch"></div>
 
-,,,
+--
 
 <div id="plot-development-Parks" class="plot r-stretch"></div>
 
-,,,
+--
 
 <div id="plot-development-Cemeteries" class="plot r-stretch"></div>
 
@@ -230,7 +230,7 @@ Gruppierung und Summation nach <a class="accent">Jahr</a>, <a class="accent">Sta
 
 ## Probleme mit den Daten
 
-,,,
+--
 
 <div class="plot r-stretch" style="display: flex">
     <div>
@@ -247,7 +247,7 @@ Gruppierung und Summation nach <a class="accent">Jahr</a>, <a class="accent">Sta
     </div>
 </div>
 
-,,,
+--
 
 ### Probleme mit Attributen
 * Viele Attribute:
@@ -257,7 +257,7 @@ Gruppierung und Summation nach <a class="accent">Jahr</a>, <a class="accent">Sta
 * Ähnliche Attribute:
     - Es existieren sowohl Parks mit `landuse=recreation_ground` *und* `leisure=park` aber auch solche mit nur einem der Tags
     
-,,,
+--
 
 ### Probleme mit den Daten
 *Der Detaillierungsgrad der OSM-Daten ist regional sehr unterschiedlich. In vielen Städten sind wir schon besser als die meisten proprietären Karten – aber anderswo ist bei uns ein weisser Fleck oder nur eine Durchgangsstrasse, wo eigentlich ein ganzer Ort hingehört. Jeder [...] muss sich selbst ein Bild davon machen, ob sie für den anvisierten Zweck „vollständig genug“ sind. Wenn nicht: Einfach einen Monat später nochmal hingucken!*
@@ -267,11 +267,11 @@ Gruppierung und Summation nach <a class="accent">Jahr</a>, <a class="accent">Sta
 
 ## Benchmarks
 
-,,,
+--
 
 ### Datenmenge
 
-,,,
+--
 
 ### Kerne pro Exekutor
 * Nur Messung der Berechnung, nicht des Ladens der Daten
@@ -279,7 +279,7 @@ Gruppierung und Summation nach <a class="accent">Jahr</a>, <a class="accent">Sta
 <div id="plot-benchmark-cores" style="width: 50%; margin:auto"></div>
 </div>
 
-,,,
+--
 
 ### Datenmenge
 * Künstliche Vervielfachung der Datenmenge mit `df.union(df)`
@@ -287,7 +287,7 @@ Gruppierung und Summation nach <a class="accent">Jahr</a>, <a class="accent">Sta
 <div id="plot-benchmark-data" style="width: 70%; margin:auto"></div>
 </div>
 
-,,,
+--
 
 ### Benchmarks
 
