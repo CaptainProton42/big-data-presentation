@@ -256,7 +256,7 @@ Gruppierung und Summation nach <a class="accent">Jahr</a>, <a class="accent">Sta
     - `natural=scrub` (Buschland) wird sowohl innerorts als auch in der Natur verwendet
 * Ähnliche Attribute:
     - Es existieren sowohl Parks mit `landuse=recreation_ground` *und* `leisure=park` aber auch solche mit nur einem der Tags
-    
+  
 --
 
 ### Probleme mit den Daten
@@ -304,7 +304,7 @@ Gruppierung und Summation nach <a class="accent">Jahr</a>, <a class="accent">Sta
     * Viele kleine Anfragen vermeiden
 * Arbeit mit der Datenstruktur in Spark war kompliziert
     * Vorbereitung der Daten mit verfügbaren Bibliotheken (z.B. GeoPandas)
-    
+
 ---
 
 ## Quellen und verwendete Software
