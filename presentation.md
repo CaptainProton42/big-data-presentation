@@ -304,3 +304,7 @@ Gruppierung und Summation nach <a class="accent">Jahr</a>, <a class="accent">Sta
 * Präsentation erstellt mit Reveal.js (MIT License)
 * Abbildungen erstellt mit Plotly.js (MIT License) und mapbox
 * Daten von OpenStreetMap (ODbL 1.0, DbCL 1.0)
+
+
+
+https://john-wigg.github.io/big-data-presentation
