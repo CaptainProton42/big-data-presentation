@@ -25,7 +25,7 @@ https://www.openstreetmap.org/
 * Freiwillige können selber Daten beitragen
 * Die OSM-Daten stehen unter der Open Database Licence (ODbL) 1.0 und der Database Contents License (DbCL) 1.0
     - Jegliche Nutzung, auch gewerblich, ist zulässig (unter Quellenangabe)
-    
+ 
 --
 
 ### OpenStreetMap: Datenbank
