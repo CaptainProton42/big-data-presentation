@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="reveal.js/dist/reset.css">
+		<link rel="stylesheet" href="reveal.js/dist/reveal.css">
+		<link rel="stylesheet" href="reveal.js/dist/theme/black.css" id="theme">
+		<link rel="stylesheet" href="presentation.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
+
+		<!--Plotly-->
+		<script src="https://cdn.plot.ly/plotly-latest.min.js" charset="utf-8"></script>
+		<!--Danfo.js-->
+		<script src="https://cdn.jsdelivr.net/npm/danfojs@0.1.2/dist/index.min.js"></script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides" style="zoom: 1.0 !important">
+				<section data-markdown="presentation.md"
+				data-separator="^\r?\n---\r?\n"
+				data-separator-vertical="^\r?\n,,,\r?\n"
+				data-separator-notes="^Note:"
+				data-charset="utf-8">
+					<!--
+						Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+						For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+					-->
+				</section>
+			</div>
+		</div>
+
+		<script src="reveal.js/dist/reveal.js"></script>
+		<script src="reveal.js/plugin/notes/notes.js"></script>
+		<script src="reveal.js/plugin/markdown/markdown.js"></script>
+		<script src="reveal.js/plugin/highlight/highlight.js"></script>
+		<script src="reveal.js/plugin/math/math.js"></script>
+
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				width: 1280,
+				height: 720,
+				  
+				margin: 0.04,
+
+				// Bounds for smallest/largest possible scale to apply to content
+				minScale: 0.2,
+				maxScale: 3.0,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
+			});
+		</script>
+
+		<!-- Fix scale of plots-->
+		<script src="fix-plot-scale.js"></script>
+
+		<!--Include plots here.-->
+		<script src="plots/relative.js"></script>
+		<script src="plots/total.js"></script>
+		<script src="plots/development.js"></script>
+		<script src="plots/map_jena.js"></script>
+		<script src="plots/map_berlin.js"></script>
+		<script src="plots/map_hamburg.js"></script>
+		<script src="plots/map_muenchen.js"></script>
+		<script src="plots/map_problem_overlap.js"></script>
+		<script src="plots/map_problem_missing.js"></script>
+		<script src="plots/map_problem_overhang.js"></script>
+		<script src="plots/benchmarks.js"></script>
+	</body>
+</html>

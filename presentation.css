@@ -1,0 +1,31 @@
+/* Plot container. */
+.plot {
+    margin: auto;
+}
+
+/* Some additional colors. */
+.accent {
+    color: #f2aa24 !important;
+}
+
+.light {
+    color: #666666 !important;
+}
+
+/* Accent color for headings. */
+.reveal h1 {
+    color: #f2aa24 !important; }
+  
+.reveal h2 {
+    color: #f2aa24 !important; }
+
+.reveal h3 {
+    color: #f2aa24 !important; }
+
+.reveal h4 {
+    color: #f2aa24 !important; }
+
+/* Larger hover text. */
+.hovertext text{
+    font-size:30px !important;
+}
