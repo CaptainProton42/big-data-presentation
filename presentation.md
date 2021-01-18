@@ -15,7 +15,7 @@ John Wigg <!-- .element: class="light" -->
 
 ## Datenbeschaffung
 
-,,,
+--
 
 ### Datenbeschaffung: OpenStreetMap
 
@@ -26,7 +26,7 @@ https://www.openstreetmap.org/
 * Die OSM-Daten stehen unter der Open Database Licence (ODbL) 1.0 und der Database Contents License (DbCL) 1.0
     - Jegliche Nutzung, auch gewerblich, ist zulässig (unter Quellenangabe)
     
-,,,
+--
 
 ### OpenStreetMap: Datenbank
 * Selektiver Download aus der OSM-Datenbank: *Overpass API*
@@ -36,13 +36,13 @@ https://www.openstreetmap.org/
     - Kleinere Datenmengen (~300 MB unkomprimiert)
 * *Overpass Turbo*: Benutzerfreundlicher Zugang zu öffentlichen Endpunkten
 
-,,,
+--
 
 ### OpenStreetMap: Datenstruktur
 * *Elemente* von OSM: ***Nodes***, ***Ways*** und ***Relations***
 * Elemente können mit Attributen versehen sein, um ihnen Informationen oder Rollen zuzuweisen
 
-,,,
+--
 
 #### Nodes
 * Einzelne Punkte auf der Karte, z.B. Denkmäler
@@ -57,13 +57,13 @@ https://www.openstreetmap.org/
 * Gruppiert Nodes, Ways oder andere Relationen
 * z.B. ein Wald bestehend aus Holzungen und Lichtungen
 
-,,,
+--
 
 ### OpenStreetMap: *Attic Data*
 * Ältere Versionen von Objekten in der OSM-Datenbank
 * Vollständige Datenbank enthält alle Daten seit der Lizenzänderung vom 12.09.2012
 
-,,,
+--
 
 ### OpenStreetMap: Abfrage
 * Abfrage der Daten zu <a class="accent">bebauten Flächen</a> in <a class="accent">Jena</a> vom <a class="accent">01.01.2015</a>
@@ -84,14 +84,14 @@ https://www.openstreetmap.org/
 out geom;
 ```
 
-,,,
+--
 
 ### OpenStreetMap: Gesammelte Daten
 * Daten für <a class="accent">bebaute Flächen</a>, <a class="accent">Grünflächen</a> und <a class="accent">Friedhöfe</a>
 * Zeitraum von <a class="accent">2013</a>&ndash;<a class="accent">2021</a>
 * Für <a class="accent">Berlin</a>, <a class="accent">Hamburg</a>, <a class="accent">München</a> und <a class="accent">Jena</a>
 
-,,,
+--
 
 ### OpenStreetMap: Probleme
 * Offene Overpass API-Endpunkte erlauben nur Download kleiner Datenmengen
@@ -107,7 +107,7 @@ out geom;
 * Vorbereitung der Daten
 * Pipeline
 
-,,,
+--
 
 ### Datenverarbeitung: Theorie
 ***Ziel:*** Flächenberechnung.
@@ -121,7 +121,7 @@ $\begin{align}
 
 mit $y = \text{LAT}$ und $x = \cos(\text{LAT}) \cdot \text{LON}$
 
-,,,
+--
 
 ### Datenverarbeitung: Pipeline
 <a class="accent">Lokal:</a> Overpass API
@@ -134,7 +134,7 @@ mit $y = \text{LAT}$ und $x = \cos(\text{LAT}) \cdot \text{LON}$
 
 <a class="accent">Lokal:</a> Plotten der Ergebnisse
 
-,,,
+--
 
 ### Datenverarbeitung: Ausgangsdaten
 * OSM-Rohdaten werden als `.json`-Datei ausgegeben
@@ -155,7 +155,7 @@ mit $y = \text{LAT}$ und $x = \cos(\text{LAT}) \cdot \text{LON}$
 
 * 319 MB in vielen Einzeldateien
 
-,,,
+--
 
 ### Datenverarbeitung: PySpark
 Spark `SQLContext` zum Lesen der `.json`-Daten als DataFrame
